@@ -9,9 +9,20 @@
 <body>
 <a-scene>
     <a-assets>
-        <a-asset-item id="underground" src="models/parkground.dae"/>
+        <a-asset-item id="underground" src="models/parkIII.dae"/>
     </a-assets>
-    <a-collada-model src="#underground" position="-20 0 0"></a-collada-model>
+    <a-assets>
+        <a-asset-item id="sun" src="models/sun1.dae"/>
+    </a-assets>
+    <a-assets>
+        <a-asset-item id="shente" src="models/shente1.dae"/>
+    </a-assets>
+
+
+    <a-collada-model src="#shente" position="0 7 0" rotation="0 90 0"></a-collada-model>
+    <a-collada-model src="#sun" position="10 7 0" rotation="0 90 0"></a-collada-model>
+
+    <a-collada-model src="#underground" position="0 0 0" rotation="0 180 0"></a-collada-model>
 </a-scene>
 
 </body>
