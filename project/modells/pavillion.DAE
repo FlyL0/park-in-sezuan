@@ -6,13 +6,13 @@
       <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.6;  Revision: 37</authoring_tool>
       <source_data>file:///C:/Users/Leo/Documents/3dsMax/scenes/Pavillion.max</source_data>
     </contributor>
-    <created>2017-01-26T14:59:07</created>
-    <modified>2017-01-26T14:59:07</modified>
+    <created>2017-01-26T18:50:48</created>
+    <modified>2017-01-26T18:50:48</modified>
     <unit name="inch" meter="0.0254"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
-    <effect id="Material__32">
+    <effect id="Material__37">
       <profile_COMMON>
         <technique sid="common">
           <blinn>
@@ -134,8 +134,8 @@
     <material id="ColorEffectR143G225B87-material" name="ColorEffectR143G225B87-material">
       <instance_effect url="#ColorEffectR143G225B87"/>
     </material>
-    <material id="Material__32-material" name="Material__32">
-      <instance_effect url="#Material__32"/>
+    <material id="Material__37-material" name="Material__37">
+      <instance_effect url="#Material__37"/>
     </material>
   </library_materials>
   <library_geometries>
@@ -174,7 +174,7 @@
         <vertices id="geom-Tube001-vertices">
           <input semantic="POSITION" source="#geom-Tube001-positions"/>
         </vertices>
-        <triangles material="Material__32_1" count="144">
+        <triangles material="Material__37_1" count="144">
           <input semantic="VERTEX" source="#geom-Tube001-vertices" offset="0"/>
           <input semantic="NORMAL" source="#geom-Tube001-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#geom-Tube001-map1" offset="2" set="0"/>
@@ -234,7 +234,7 @@
         <vertices id="geom-Tube002-vertices">
           <input semantic="POSITION" source="#geom-Tube002-positions"/>
         </vertices>
-        <triangles material="Material__32" count="144">
+        <triangles material="Material__37" count="144">
           <input semantic="VERTEX" source="#geom-Tube002-vertices" offset="0"/>
           <input semantic="NORMAL" source="#geom-Tube002-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#geom-Tube002-map1" offset="2" set="0"/>
@@ -262,7 +262,7 @@
     <geometry id="geom-Tube003" name="Tube003">
       <mesh>
         <source id="geom-Tube003-positions">
-          <float_array id="geom-Tube003-positions-array" count="216">-2.82463e-6 64.62003 0 -2.82463e-6 64.62003 0.1 -2.82463e-6 64.62003 0.2 -2.82463e-6 64.62003 0.3 -2.82463e-6 64.62003 0.4 -2.82463e-6 64.62003 0.5 -1.57059e-6 35.93087 0.5 -1.57059e-6 35.93087 0.4 -1.57059e-6 35.93087 0.3 -1.57059e-6 35.93087 0.2 -1.57059e-6 35.93087 0.09999999 -1.57059e-6 35.93087 0 55.96259 32.31002 0 55.96259 32.31002 0.1 55.96259 32.31002 0.2 55.96259 32.31002 0.3 55.96259 32.31002 0.4 55.96259 32.31002 0.5 31.11705 17.96544 0.5 31.11705 17.96544 0.4 31.11705 17.96544 0.3 31.11705 17.96544 0.2 31.11705 17.96544 0.09999999 31.11705 17.96544 0 55.96259 -32.31002 0 55.96259 -32.31002 0.1 55.96259 -32.31002 0.2 55.96259 -32.31002 0.3 55.96259 -32.31002 0.4 55.96259 -32.31002 0.5 31.11705 -17.96544 0.5 31.11705 -17.96544 0.4 31.11705 -17.96544 0.3 31.11705 -17.96544 0.2 31.11705 -17.96544 0.09999999 31.11705 -17.96544 0 -2.82463e-6 -64.62003 0 -2.82463e-6 -64.62003 0.1 -2.82463e-6 -64.62003 0.2 -2.82463e-6 -64.62003 0.3 -2.82463e-6 -64.62003 0.4 -2.82463e-6 -64.62003 0.5 -1.57059e-6 -35.93087 0.5 -1.57059e-6 -35.93087 0.4 -1.57059e-6 -35.93087 0.3 -1.57059e-6 -35.93087 0.2 -1.57059e-6 -35.93087 0.09999999 -1.57059e-6 -35.93087 0 -55.96259 -32.31002 0 -55.96259 -32.31002 0.1 -55.96259 -32.31002 0.2 -55.96259 -32.31002 0.3 -55.96259 -32.31002 0.4 -55.96259 -32.31002 0.5 -31.11705 -17.96544 0.5 -31.11705 -17.96544 0.4 -31.11705 -17.96544 0.3 -31.11705 -17.96544 0.2 -31.11705 -17.96544 0.09999999 -31.11705 -17.96544 0 -55.96259 32.31002 0 -55.96259 32.31002 0.1 -55.96259 32.31002 0.2 -55.96259 32.31002 0.3 -55.96259 32.31002 0.4 -55.96259 32.31002 0.5 -31.11705 17.96544 0.5 -31.11705 17.96544 0.4 -31.11705 17.96544 0.3 -31.11705 17.96544 0.2 -31.11705 17.96544 0.09999999 -31.11705 17.96544 0</float_array>
+          <float_array id="geom-Tube003-positions-array" count="216">-2.82463e-6 64.62003 0 -2.82463e-6 64.62003 3 -2.82463e-6 64.62003 6 -2.82463e-6 64.62003 9 -2.82463e-6 64.62003 12 -2.82463e-6 64.62003 15 -1.57059e-6 35.93087 15 -1.57059e-6 35.93087 12 -1.57059e-6 35.93087 9 -1.57059e-6 35.93087 6 -1.57059e-6 35.93087 3 -1.57059e-6 35.93087 0 55.96259 32.31002 0 55.96259 32.31002 3 55.96259 32.31002 6 55.96259 32.31002 9 55.96259 32.31002 12 55.96259 32.31002 15 31.11705 17.96544 15 31.11705 17.96544 12 31.11705 17.96544 9 31.11705 17.96544 6 31.11705 17.96544 3 31.11705 17.96544 0 55.96259 -32.31002 0 55.96259 -32.31002 3 55.96259 -32.31002 6 55.96259 -32.31002 9 55.96259 -32.31002 12 55.96259 -32.31002 15 31.11705 -17.96544 15 31.11705 -17.96544 12 31.11705 -17.96544 9 31.11705 -17.96544 6 31.11705 -17.96544 3 31.11705 -17.96544 0 -2.82463e-6 -64.62003 0 -2.82463e-6 -64.62003 3 -2.82463e-6 -64.62003 6 -2.82463e-6 -64.62003 9 -2.82463e-6 -64.62003 12 -2.82463e-6 -64.62003 15 -1.57059e-6 -35.93087 15 -1.57059e-6 -35.93087 12 -1.57059e-6 -35.93087 9 -1.57059e-6 -35.93087 6 -1.57059e-6 -35.93087 3 -1.57059e-6 -35.93087 0 -55.96259 -32.31002 0 -55.96259 -32.31002 3 -55.96259 -32.31002 6 -55.96259 -32.31002 9 -55.96259 -32.31002 12 -55.96259 -32.31002 15 -31.11705 -17.96544 15 -31.11705 -17.96544 12 -31.11705 -17.96544 9 -31.11705 -17.96544 6 -31.11705 -17.96544 3 -31.11705 -17.96544 0 -55.96259 32.31002 0 -55.96259 32.31002 3 -55.96259 32.31002 6 -55.96259 32.31002 9 -55.96259 32.31002 12 -55.96259 32.31002 15 -31.11705 17.96544 15 -31.11705 17.96544 12 -31.11705 17.96544 9 -31.11705 17.96544 6 -31.11705 17.96544 3 -31.11705 17.96544 0</float_array>
           <technique_common>
             <accessor source="#geom-Tube003-positions-array" count="72" stride="3">
               <param name="X" type="float"/>
@@ -272,7 +272,7 @@
           </technique_common>
         </source>
         <source id="geom-Tube003-normals">
-          <float_array id="geom-Tube003-normals-array" count="288">-1.52264e-5 1 0 0.866029 0.4999937 0 0.8660251 0.5000007 0 3.76827e-6 1 0 0.866029 0.4999937 0 3.76827e-6 1 0 0.866029 0.4999937 0 3.77923e-6 1 0 0.866029 0.4999938 0 3.79018e-6 1 0 0.866033 0.4999869 0 2.27897e-5 1 0 0 0 1 0 0 1 0 0 1 0 0 1 3.92153e-6 -1 0 -0.8660265 -0.4999984 0 -0.8660254 -0.4999999 0 3.99818e-6 -0.9999999 0 -0.8660265 -0.4999984 0 3.99818e-6 -0.9999999 0 -0.8660265 -0.4999984 0 3.99818e-6 -0.9999999 0 -0.8660265 -0.4999984 0 3.99818e-6 -0.9999999 0 -0.8660274 -0.4999967 0 4.04715e-6 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.866029 -0.4999937 0 0.866033 -0.4999869 0 0.866029 -0.4999937 0 0.866029 -0.4999937 0 0.866029 -0.4999937 0 0.8660251 -0.5000007 0 0 0 1 0 0 1 -0.8660263 0.4999982 0 -0.8660274 0.4999967 0 -0.8660263 0.4999982 0 -0.8660263 0.4999982 0 -0.8660263 0.4999982 0 -0.8660254 0.4999999 0 0 0 -1 0 0 -1 0 -1 0 1.52044e-5 -1 0 1.09542e-8 -1 0 0 -1 0 -2.19084e-8 -1 0 -1.52264e-5 -1 0 0 0 1 0 0 1 3.2862e-8 1 0 -3.85581e-6 1 0 4.3816e-8 1 0 4.3816e-8 1 0 3.2862e-8 1 0 3.89962e-6 1 0 0 0 -1 0 0 -1 -0.866029 -0.4999937 0 -0.8660251 -0.5000006 0 -0.866029 -0.4999937 0 -0.866029 -0.4999937 0 -0.866029 -0.4999937 0 -0.866033 -0.4999868 0 0 0 1 0 0 1 0.8660265 0.4999984 0 0.8660254 0.4999999 0 0.8660264 0.4999984 0 0.8660264 0.4999984 0 0.8660265 0.4999984 0 0.8660274 0.4999967 0 0 0 -1 0 0 -1 -0.8660309 0.4999903 0 -0.8660368 0.4999803 0 -0.8660309 0.4999904 0 -0.8660309 0.4999904 0 -0.8660309 0.4999904 0 -0.866025 0.5000005 0 0 0 1 0 0 1 0.8660244 -0.5000017 0 0.8660234 -0.5000035 0 0.8660244 -0.5000017 0 0.8660244 -0.5000017 0 0.8660244 -0.5000017 0 0.8660254 -0.4999999 0 0 0 -1 0 0 -1</float_array>
+          <float_array id="geom-Tube003-normals-array" count="288">-2.40986e-7 1 0 0.8660254 0.5000001 0 0.8660253 0.5000002 0 -5.47696e-8 1 0 0.8660254 0.5000001 0 -5.47696e-8 1 0 0.8660254 0.5000001 0 -5.47696e-8 1 0 0.8660254 0.5000001 0 -5.47696e-8 1 0 0.8660256 0.4999999 0 1.54724e-7 1 0 0 0 1 0 0 1 0 0 1 0 0 1 -1.75263e-7 -1 0 -0.8660253 -0.5000001 0 -0.8660254 -0.5 0 6.57235e-8 -1 0 -0.8660253 -0.5000001 0 8.76313e-8 -1 0 -0.8660254 -0.5000001 0 1.09539e-7 -1 0 -0.8660254 -0.5000001 0 1.20493e-7 -1 0 -0.8660253 -0.5000002 0 3.56002e-7 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.8660254 -0.5000001 0 0.8660256 -0.4999999 0 0.8660254 -0.5000001 0 0.8660254 -0.5000001 0 0.8660254 -0.5000001 0 0.8660253 -0.5000002 0 0 0 1 0 0 1 -0.8660253 0.5000001 0 -0.8660253 0.5000002 0 -0.8660253 0.5000001 0 -0.8660253 0.5000001 0 -0.8660253 0.5000001 0 -0.8660254 0.4999999 0 0 0 -1 0 0 -1 -1.31447e-7 -1 0 -4.38157e-8 -0.9999999 0 -1.31447e-7 -1 0 -1.31447e-7 -1 0 -1.31447e-7 -1 0 -1.97171e-7 -1 0 0 0 1 0 0 1 -2.84802e-7 1 0 -3.72434e-7 1 0 -2.62894e-7 1 0 -2.5194e-7 1 0 -2.40986e-7 1 0 -1.53355e-7 1 0 0 0 -1 0 0 -1 -0.8660254 -0.5000001 0 -0.8660253 -0.5000002 0 -0.8660254 -0.5000001 0 -0.8660254 -0.5000001 0 -0.8660254 -0.5000001 0 -0.8660254 -0.5000001 0 0 0 1 0 0 1 0.8660256 0.4999999 0 0.8660254 0.4999999 0 0.8660256 0.4999999 0 0.8660256 0.4999999 0 0.8660255 0.4999999 0 0.8660256 0.4999997 0 0 0 -1 0 0 -1 -0.8660254 0.5 0 -0.8660256 0.4999998 0 -0.8660254 0.5 0 -0.8660254 0.5 0 -0.8660254 0.5 0 -0.8660254 0.5000001 0 0 0 1 0 0 1 0.8660253 -0.5000001 0 0.8660252 -0.5000002 0 0.8660253 -0.5000001 0 0.8660253 -0.5000001 0 0.8660253 -0.5000001 0 0.8660254 -0.4999999 0 0 0 -1 0 0 -1</float_array>
           <technique_common>
             <accessor source="#geom-Tube003-normals-array" count="96" stride="3">
               <param name="X" type="float"/>
@@ -294,7 +294,7 @@
         <vertices id="geom-Tube003-vertices">
           <input semantic="POSITION" source="#geom-Tube003-positions"/>
         </vertices>
-        <triangles material="Material__32" count="144">
+        <triangles material="Material__37" count="144">
           <input semantic="VERTEX" source="#geom-Tube003-vertices" offset="0"/>
           <input semantic="NORMAL" source="#geom-Tube003-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#geom-Tube003-map1" offset="2" set="0"/>
@@ -306,7 +306,7 @@
           <max_tube>
             <radius1 sid="radius1" type="float">64.62004</radius1>
             <radius2 sid="radius2" type="float">35.93087</radius2>
-            <height sid="height" type="float">0.5</height>
+            <height sid="height" type="float">15</height>
             <sides sid="sides" type="int">6</sides>
             <capsegments sid="capsegments" type="int">1</capsegments>
             <heightsegments sid="heightsegments" type="int">5</heightsegments>
@@ -354,7 +354,7 @@
         <vertices id="geom-Quader001-vertices">
           <input semantic="POSITION" source="#geom-Quader001-positions"/>
         </vertices>
-        <triangles material="Material__32" count="12">
+        <triangles material="Material__37" count="12">
           <input semantic="VERTEX" source="#geom-Quader001-vertices" offset="0"/>
           <input semantic="NORMAL" source="#geom-Quader001-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#geom-Quader001-map1" offset="2" set="0"/>
@@ -1429,12 +1429,12 @@
         <instance_light url="#EnvironmentAmbientLight"/>
       </node>
       <node id="node-Tube001" name="Tube001">
-        <translate>0.03450869 0.2105777 1.882611</translate>
+        <translate>0.03450869 0.2105771 15.044</translate>
         <rotate>0 0 1 -30.08624</rotate>
         <instance_geometry url="#geom-Tube001">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Material__32_1" target="#Material__32-material"/>
+              <instance_material symbol="Material__37_1" target="#Material__37-material"/>
             </technique_common>
           </bind_material>
         </instance_geometry>
@@ -1448,12 +1448,12 @@
         </extra>
       </node>
       <node id="node-Tube002" name="Tube002">
-        <translate>0.03450869 0.2105782 6.672192</translate>
+        <translate>0.03450869 0.2105776 19.83358</translate>
         <rotate>0 0 1 -30.08624</rotate>
         <instance_geometry url="#geom-Tube002">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Material__32" target="#Material__32-material"/>
+              <instance_material symbol="Material__37" target="#Material__37-material"/>
             </technique_common>
           </bind_material>
         </instance_geometry>
@@ -1467,12 +1467,12 @@
         </extra>
       </node>
       <node id="node-Tube003" name="Tube003">
-        <translate>0.03450871 0.2105777 1.304778</translate>
+        <translate>0.03450871 0.2105777 0.334619</translate>
         <rotate>0 0 1 -30.08624</rotate>
         <instance_geometry url="#geom-Tube003">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Material__32" target="#Material__32-material"/>
+              <instance_material symbol="Material__37" target="#Material__37-material"/>
             </technique_common>
           </bind_material>
         </instance_geometry>
@@ -1486,11 +1486,11 @@
         </extra>
       </node>
       <node id="node-Quader001" name="Quader001">
-        <translate>-0.3757275 -40.95084 1.758128</translate>
+        <translate>-0.3757275 -40.95084 14.91952</translate>
         <instance_geometry url="#geom-Quader001">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Material__32" target="#Material__32-material"/>
+              <instance_material symbol="Material__37" target="#Material__37-material"/>
             </technique_common>
           </bind_material>
         </instance_geometry>
@@ -1504,7 +1504,7 @@
         </extra>
       </node>
       <node id="node-Zylinder001" name="Zylinder001">
-        <translate>-20.41714 -35.42968 9.025101</translate>
+        <translate>-20.41714 -35.42968 22.18649</translate>
         <instance_geometry url="#geom-Zylinder001">
           <bind_material>
             <technique_common>
@@ -1522,7 +1522,7 @@
         </extra>
       </node>
       <node id="node-Zylinder002" name="Zylinder002">
-        <translate>-41.22022 0.1829219 8.937771</translate>
+        <translate>-41.22022 0.1829213 22.09916</translate>
         <instance_geometry url="#geom-Zylinder002">
           <bind_material>
             <technique_common>
@@ -1540,7 +1540,7 @@
         </extra>
       </node>
       <node id="node-Zylinder003" name="Zylinder003">
-        <translate>20.54325 -35.42968 9.025101</translate>
+        <translate>20.54325 -35.42968 22.18649</translate>
         <instance_geometry url="#geom-Zylinder003">
           <bind_material>
             <technique_common>
@@ -1558,7 +1558,7 @@
         </extra>
       </node>
       <node id="node-Zylinder004" name="Zylinder004">
-        <translate>41.10486 0.1829219 8.937771</translate>
+        <translate>41.10486 0.1829213 22.09916</translate>
         <instance_geometry url="#geom-Zylinder004">
           <bind_material>
             <technique_common>
@@ -1576,7 +1576,7 @@
         </extra>
       </node>
       <node id="node-Zylinder005" name="Zylinder005">
-        <translate>20.54325 35.81827 9.025101</translate>
+        <translate>20.54325 35.81827 22.18649</translate>
         <instance_geometry url="#geom-Zylinder005">
           <bind_material>
             <technique_common>
@@ -1594,7 +1594,7 @@
         </extra>
       </node>
       <node id="node-Zylinder006" name="Zylinder006">
-        <translate>-20.41714 36.11217 9.025101</translate>
+        <translate>-20.41714 36.11217 22.18649</translate>
         <instance_geometry url="#geom-Zylinder006">
           <bind_material>
             <technique_common>
@@ -1612,7 +1612,7 @@
         </extra>
       </node>
       <node id="node-Tube004" name="Tube004">
-        <translate>0.03450869 0.210575 64.14606</translate>
+        <translate>0.03450869 0.2105744 77.30746</translate>
         <rotate>0 0 1 -30.08624</rotate>
         <instance_geometry url="#geom-Tube004">
           <bind_material>
@@ -1631,7 +1631,7 @@
         </extra>
       </node>
       <node id="node-Quader002" name="Quader002">
-        <translate>-0.1314292 36.15932 22.34556</translate>
+        <translate>-0.1314292 36.15932 35.50695</translate>
         <instance_geometry url="#geom-Quader002">
           <bind_material>
             <technique_common>
@@ -1649,7 +1649,7 @@
         </extra>
       </node>
       <node id="node-Quader003" name="Quader003">
-        <translate>30.94388 -17.57447 22.34556</translate>
+        <translate>30.94388 -17.57447 35.50695</translate>
         <rotate>0 0 -1 -59.89465</rotate>
         <instance_geometry url="#geom-Quader003">
           <bind_material>
@@ -1668,7 +1668,7 @@
         </extra>
       </node>
       <node id="node-Quader004" name="Quader004">
-        <translate>-31.07301 18.13293 22.34556</translate>
+        <translate>-31.07301 18.13293 35.50695</translate>
         <rotate>0 0 -1 -59.89465</rotate>
         <instance_geometry url="#geom-Quader004">
           <bind_material>
@@ -1687,7 +1687,7 @@
         </extra>
       </node>
       <node id="node-Quader005" name="Quader005">
-        <translate>30.90825 17.8442 22.34556</translate>
+        <translate>30.90825 17.84419 35.50695</translate>
         <rotate>0 0 -1 -119.9691</rotate>
         <instance_geometry url="#geom-Quader005">
           <bind_material>
@@ -1706,7 +1706,7 @@
         </extra>
       </node>
       <node id="node-Quader006" name="Quader006">
-        <translate>-30.84395 -17.49052 22.34556</translate>
+        <translate>-30.84395 -17.49052 35.50695</translate>
         <rotate>0 0 1 -60.11773</rotate>
         <instance_geometry url="#geom-Quader006">
           <bind_material>
@@ -1725,7 +1725,7 @@
         </extra>
       </node>
       <node id="node-Kegel001" name="Kegel001">
-        <translate>-0.37183 -0.05190563 69.96133</translate>
+        <translate>-0.37183 -0.05190621 83.12272</translate>
         <instance_geometry url="#geom-Kegel001">
           <bind_material>
             <technique_common>
@@ -1743,7 +1743,7 @@
         </extra>
       </node>
       <node id="node-Zylinder007" name="Zylinder007">
-        <translate>29.58361 51.83244 70.75997</translate>
+        <translate>29.58361 51.83244 83.92136</translate>
         <rotate>-0.4430831 0.7736676 -0.452897 -103.3258</rotate>
         <instance_geometry url="#geom-Zylinder007">
           <bind_material>
@@ -1762,7 +1762,7 @@
         </extra>
       </node>
       <node id="node-Zylinder008" name="Zylinder008">
-        <translate>29.5836 -51.93077 70.75996</translate>
+        <translate>29.5836 -51.93077 83.92135</translate>
         <rotate>0.445332 0.771023 0.4551956 -103.5167</rotate>
         <instance_geometry url="#geom-Zylinder008">
           <bind_material>
@@ -1781,7 +1781,7 @@
         </extra>
       </node>
       <node id="node-Zylinder009" name="Zylinder009">
-        <translate>59.62327 -0.04573934 70.75996</translate>
+        <translate>59.62327 -0.04573991 83.92135</translate>
         <rotate>3.00683e-4 0.9999999 3.07343e-4 -88.7449</rotate>
         <instance_geometry url="#geom-Zylinder009">
           <bind_material>
@@ -1800,7 +1800,7 @@
         </extra>
       </node>
       <node id="node-Zylinder010" name="Zylinder010">
-        <translate>-60.24359 -0.02064034 70.75996</translate>
+        <translate>-60.24359 -0.02064092 83.92135</translate>
         <rotate>0.6993196 4.59146e-4 0.7148089 -179.9462</rotate>
         <instance_geometry url="#geom-Zylinder010">
           <bind_material>
@@ -1819,7 +1819,7 @@
         </extra>
       </node>
       <node id="node-Zylinder011" name="Zylinder011">
-        <translate>-30.37188 -51.99694 70.75996</translate>
+        <translate>-30.37188 -51.99694 83.92135</translate>
         <rotate>0.6484132 0.3745526 0.662775 -138.1015</rotate>
         <instance_geometry url="#geom-Zylinder011">
           <bind_material>
@@ -1838,7 +1838,7 @@
         </extra>
       </node>
       <node id="node-Zylinder012" name="Zylinder012">
-        <translate>-30.3636 51.90131 70.75996</translate>
+        <translate>-30.3636 51.90131 83.92135</translate>
         <rotate>0.6487089 -0.3735044 0.6630771 -221.7914</rotate>
         <instance_geometry url="#geom-Zylinder012">
           <bind_material>
@@ -1857,7 +1857,7 @@
         </extra>
       </node>
       <node id="node-Kegel002" name="Kegel002">
-        <translate>-0.37183 -0.05190698 109.0521</translate>
+        <translate>-0.37183 -0.05190755 122.2135</translate>
         <instance_geometry url="#geom-Kegel002">
           <bind_material>
             <technique_common>
@@ -1865,6 +1865,16 @@
             </technique_common>
           </bind_material>
         </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="int">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="int">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+      <node id="node-Partikelansicht_001" name="Partikelansicht_001">
         <extra>
           <technique profile="OpenCOLLADA">
             <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
