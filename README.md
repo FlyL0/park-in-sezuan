@@ -45,7 +45,9 @@ Für die Landschaft wurden folgende Objekte erstellt:
 - Hintergrundgeräusche hinzufügen
 - Pfad implementieren auf dem die Kamera entlangläuft
 
-## Folgende weitere Objekte sind geplant
+-----
+
+##'' Folgende weitere Objekte sind geplant
 
 Der Wasserverkäufer
 
