@@ -30,9 +30,9 @@ Für die Landschaft wurden folgende Objekte erstellt:
 
 - Pavillion (in 3d)
 - Büsche und Bäume (in 3d)
-- Steine
-- Brücke
-- Fluss
+- Steine (in 3d)
+- Brücke (in 3d)
+- Fluss (in 3d)
 
 ![](img/Landscape.png)
 
@@ -47,17 +47,17 @@ Für die Landschaft wurden folgende Objekte erstellt:
 
 -----
 
-##'' Folgende weitere Objekte sind geplant
+## Folgende weitere Objekte sind geplant
 
-Der Wasserverkäufer
+Der Wasserverkäufer (in 2d)
 
 ![](img/4078428_web.jpg)
 
-Ein Schwarm Kraniche
+Ein Schwarm Kraniche (in 2d)
 
 ![](img/size=708x398.jpg)
 
-Bunte Lampinions als Lichtquelle
+Bunte Lampinions als Lichtquelle (in 3d)
 
 ![](img/Laternen.jpg)
 
