@@ -47,7 +47,7 @@ Für die Landschaft wurden folgende Objekte erstellt:
 
 -----
 
-## Folgende weitere Objekte sind geplant
+## Folgende weitere Objekte werden modelliert:
 
 Der Wasserverkäufer (in 2d)
 
