@@ -10,46 +10,54 @@ Unterschiedliche Lichtverhältnisse, Regen, Musik und akustische Untermalung wer
 Die Darstellung der Charaktere wird in 2D stattfinden, ähnlich wie in einem Comic. Die Landschaft wird in 3D dargestellt.
 
 
-## Modelliert werden:
+## Folgende Modelle wurden für die Szene erstellt:
 
 
-### 2D
+### Die Charaktere
 
+Yang Sun (in 2D)
+
+![](img/Sun.png)
+
+Shen Te (in 2D)
+
+![](img/ShenTe.png)
+
+
+### Die Landschaft
+
+Für die Landschaft wurden folgende Objekte erstellt:
+
+- Pavillion (in 3d)
+- Büsche und Bäume (in 3d)
+- Steine
+- Brücke
+- Fluss
+
+![](img/Landscape.png)
+
+-----
+
+## Für den nächsten Sprint sind folgende Erweiterungen geplant:
+
+- Eine Skybox einfügen
+- Licht anpassen
+- Hintergrundgeräusche hinzufügen
+- Pfad implementieren auf dem die Kamera entlangläuft
+
+## Folgende weitere Objekte sind geplant
 
 Der Wasserverkäufer
 
 ![](img/4078428_web.jpg)
 
-Shen Te
-
-![](img/Shen.jpg)
-
-Yang Sun
-
-![](img/Yang.jpg)
-
 Ein Schwarm Kraniche
 
 ![](img/size=708x398.jpg)
 
-### 3D
-
-
-Parkgelände mit Rasen, Weg, ggf. einem Pavillon und Pflanzen   
-
-Fluss   
-
-Brücke   
-
-![](img/Park.jpg)
-
 Bunte Lampinions als Lichtquelle
 
 ![](img/Laternen.jpg)
-
-Baum an dem sich Sun Yan umbringen will
-
-
 
 
 Gegebenenfalls werden teilweise auch fertige 3D Objekte aus
