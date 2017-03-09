@@ -42,7 +42,7 @@
         <a-asset-item id="stein1" src="modells/stein1_II.DAE"/>
     </a-assets>
     <a-assets>
-        <a-asset-item id="Brücke" src="modells/Brücke.DAE"/>
+        <a-asset-item id="bruecke" src="modells/bruecke.dae"/>
     </a-assets>
 
     <a-assets>
@@ -51,23 +51,55 @@
     <a-entity sound="src: #backgroundsound"></a-entity>
 
 
-    <a-collada-model src="#shente" position="0 4 0" rotation="0 90 0"></a-collada-model>
-    <a-collada-model src="#sun" position="-12 2.98 -4.48" rotation="0 90 0"></a-collada-model>
+    <a-collada-model src="#shente" position="0 4 -30" rotation="0 -14 0"></a-collada-model>
+
+    <a-collada-model src="#sun" position="5 1.9 -29" rotation="0 -14 0" scale="0.8 0.85 1">
+    </a-collada-model>
     <a-collada-model src="#pavillon" position="-19 -0.6 -39.31" scale="5 5 5" rotation="0 90 0"></a-collada-model>
     <a-collada-model src="#baum1" position="-36.66 -0.6 32" scale="5 5 5" rotation="0 90 0"></a-collada-model>
     <a-collada-model src="#baum2" position="0 -0.6 32" scale="5 5 5" rotation="0 90 0"></a-collada-model>
     <a-collada-model src="#baum3" position="46 -0.6 -42" scale="5 5 5" rotation="0 90 0"></a-collada-model>
-    <a-collada-model src="#bigtree" position="5.5 -3.25 -40" scale="5 5 5" rotation="0 90 0"></a-collada-model>
+    <a-collada-model src="#bigtree" position="5.5 -3.25 -40" scale="8 8 8" rotation="0 90 0"></a-collada-model>
+    <a-collada-model src="#brunnen" position="-18 -0.6 17.75" scale="5 5 5" rotation="0 90 0"></a-collada-model>
     <a-collada-model src="#brunnen" position="-18 -0.6 17.75" scale="5 5 5" rotation="0 90 0"></a-collada-model>
     <a-collada-model src="#busch" position="59 -0.6 32" scale="5 5 5" rotation="0 90 0"></a-collada-model>
     <a-collada-model src="#busch" position="-41.5 -0.6 -39" scale="5 5 5" rotation="0 90 0"></a-collada-model>
     <a-collada-model src="#stein1" position="-39 -0.08 -22" scale="5 5 5" rotation="0 90 0"></a-collada-model>
-    <a-collada-model src="#Br%C3%BCcke" position="28.5 0.62 -17.59" scale="2.36 4.17 6.5600000000000005" rotation="-1.1459155902616465 92.24620501606255 0" material="" collada-model="#Brücke" visible=""></a-collada-model>
+    <a-collada-model src="#bruecke" position="28.5 0.62 -17.59" scale="2.36 4.17 6.5600000000000005" rotation="-1.1459155902616465 92.24620501606255 0" material="" collada-model="#Brücke" visible=""></a-collada-model>
+
 
 
     <a-collada-model src="#underground" position="0 0 0" rotation="0 180 0"></a-collada-model>
     <a-sky src="skybox/evening.jpg"></a-sky>
-    <a-entity camera="userHeight: 2.1" position="-48 2.98 -11.34" look-controls></a-entity>
+    <a-entity camera="userHeight: 2.1" position="-48 2 -11.34" rotation="0 225 0" look-controls>
+        <a-animation attribute="position"
+                     to="-47 4 -12"
+                     dur="600"></a-animation>
+        <a-animation attribute="position"
+                     begin="600"
+                     from="-47 4 -12"
+                     to="-36 4 -4"
+                     dur="15000"></a-animation>
+        <a-animation attribute="position"
+                     begin="16600"
+                     from="-36 4 -4"
+                     to="-7 4 -2"
+                     dur="15000">
+        </a-animation>
+        <a-animation attribute="rotation"
+                     begin="31600"
+                     from="0 225 0"
+                     to="0 360 0"
+                     dur="5000">
+        </a-animation>
+        <a-animation attribute="position"
+                     begin="36600"
+                     from="-7 4 -2"
+                     to="-7 4 -15.46"
+                     dur="5000">
+        </a-animation>
+
+    </a-entity>
 
 </a-scene>
 
