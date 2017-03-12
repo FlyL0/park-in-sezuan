@@ -44,6 +44,9 @@
     <a-assets>
         <a-asset-item id="bruecke" src="modells/bruecke.dae"/>
     </a-assets>
+    <a-assets>
+        <a-asset-item id="kraniche" src="models/kraniche.dae"/>
+    </a-assets>
 
     <a-assets>
         <audio id="backgroundsound" src="music/birds.wav" preload="auto" autoplay="true"></audio>
@@ -51,9 +54,9 @@
     <a-entity sound="src: #backgroundsound"></a-entity>
 
 
-    <a-collada-model src="#shente" position="0 4 -30" rotation="0 -14 0"></a-collada-model>
+    <a-collada-model src="#shente" position="0 4 -22" rotation="0 -14 0"></a-collada-model>
 
-    <a-collada-model src="#sun" position="5 1.9 -29" rotation="0 -14 0" scale="0.8 0.85 1">
+    <a-collada-model src="#sun" position="5 1.9 -22" rotation="0 -14 0" scale="0.8 0.85 1">
     </a-collada-model>
     <a-collada-model src="#pavillon" position="-19 -0.6 -39.31" scale="5 5 5" rotation="0 90 0"></a-collada-model>
     <a-collada-model src="#baum1" position="-36.66 -0.6 32" scale="5 5 5" rotation="0 90 0"></a-collada-model>
@@ -66,6 +69,12 @@
     <a-collada-model src="#busch" position="-41.5 -0.6 -39" scale="5 5 5" rotation="0 90 0"></a-collada-model>
     <a-collada-model src="#stein1" position="-39 -0.08 -22" scale="5 5 5" rotation="0 90 0"></a-collada-model>
     <a-collada-model src="#bruecke" position="28.5 0.62 -17.59" scale="2.36 4.17 6.5600000000000005" rotation="-1.1459155902616465 92.24620501606255 0" material="" collada-model="#Brücke" visible=""></a-collada-model>
+    <a-collada-model src="#kraniche" position="59 7 100" scale="0.5 0.5 0.5" rotation="0 78 0">
+        <a-animation attribute="position"
+                     to="59 35 -200"
+                     dur="56000">
+        </a-animation>
+    </a-collada-model>
 
 
 
@@ -84,16 +93,16 @@
                      begin="16600"
                      from="-36 4 -4"
                      to="-7 4 -2"
-                     dur="15000">
+                     dur="15000"> <!-- hier kann die Kranichbewegung eingesetzt werden -->
         </a-animation>
         <a-animation attribute="rotation"
-                     begin="31600"
+                     begin="46600"
                      from="0 225 0"
                      to="0 360 0"
                      dur="5000">
         </a-animation>
         <a-animation attribute="position"
-                     begin="36600"
+                     begin="51600"
                      from="-7 4 -2"
                      to="-7 4 -15.46"
                      dur="5000">

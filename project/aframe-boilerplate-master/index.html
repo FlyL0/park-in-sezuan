@@ -7,9 +7,11 @@
     <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
   </head>
   <body>
-    <a-scene>
-        <a-sky src="skybox/wormhole.jpg"></a-sky>
-    </a-scene>
-
+  <a-scene>
+  <a-assets>
+    <a-asset-item id="kranichtest" src="models/crane90.dae"/>
+  </a-assets>
+  <a-collada-model src="#kranichtest" position="0 0 0"></a-collada-model>
+  </a-scene>
   </body>
 </html>
