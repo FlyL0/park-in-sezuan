@@ -62,17 +62,18 @@
 
     <a-collada-model src="#shente" position="0 4 -22" rotation="0 -14 0"></a-collada-model>
 
-    <a-collada-model src="#sun" position="40.43 1.39 0.63" rotation="0 -225 0" scale="0.8 0.85 1"></a-collada-model>
-    <a-collada-model src="#seilbaum" position="40 -0.44 7.86" rotation="0 -14 0" scale="5 5 5"></a-collada-model>
-    <a-collada-model src="#pavillon" position="-19 -0.6 -39.31" scale="5 5 5" rotation="0 90 0"></a-collada-model>
+    <a-collada-model src="#sun" position="45.68 1.29 6.42" rotation="0 -225 0" scale="0.8 0.85 1"></a-collada-model>
+    <a-collada-model src="#seilbaum" position="45.28 -0.44 7.86" rotation="0 18.20 0" scale="5 5 5"></a-collada-model>
+    <a-collada-model src="#pavillon" position="2.23 -0.47 5.05" scale="5 5 5" rotation="0.34 -139.66 2.46"></a-collada-model>
     <a-collada-model src="#baum1" position="-36.66 -0.6 32" scale="5 5 5" rotation="0 90 0"></a-collada-model>
-    <a-collada-model src="#baum2" position="0 -0.6 32" scale="5 5 5" rotation="0 90 0"></a-collada-model>
-    <a-collada-model src="#baum3" position="46 -0.6 -42" scale="8 8 8" rotation="0 90 0"></a-collada-model>
-    <a-collada-model src="#bigtree" position="5.5 -3.25 -40" scale="8 8 8" rotation="0 90 0"></a-collada-model>
-    <a-collada-model src="#brunnen" position="-18 -0.6 17.75" scale="5 5 5" rotation="0 90 0"></a-collada-model>
+    <a-collada-model src="#baum2" position="-36 -1.1 -60.67" scale="10 10 10" rotation="3.70 -110.94 1.72"></a-collada-model>
+    <a-collada-model src="#baum2" position="4.48 -1.26 35.54" scale="9.04 10.72 8.72" rotation="2.08 -26.62 0"></a-collada-model>
+    <a-collada-model src="#baum3" position="55.96 -2.15 -41.72" scale="8.48 11.40 8.26" rotation="3.32 78.85 0"></a-collada-model>
+    <a-collada-model src="#bigtree" position="5.5 -5.25 -40" scale="6 6.38 5.52" rotation="0 90 0"></a-collada-model>
+    <a-collada-model src="#brunnen" position="-15.94 -1.70 -27.64" scale="6 6 6" rotation="-0.60 99 0"></a-collada-model>
     <a-collada-model src="#busch" position="59 -0.6 32" scale="5 5 5" rotation="0 90 0"></a-collada-model>
-    <a-collada-model src="#busch" position="-41.5 -0.6 -39" scale="5 5 5" rotation="0 90 0"></a-collada-model>
-    <a-collada-model src="#stein1" position="-39 -0.08 -22" scale="5 5 5" rotation="0 90 0"></a-collada-model>
+    <a-collada-model src="#busch" position="-20.36 -1 20.25" scale="6 6 6" rotation="0 78 0"></a-collada-model>
+    <a-collada-model src="#stein1" position="-35.92 -0.46 -34.30" scale="8 8 7" rotation="0 65.55 0"></a-collada-model>
     <a-collada-model src="#bruecke" position="28.5 0.62 -17.59" scale="2.36 4.17 6.5600000000000005" rotation="-1.1459155902616465 92.24620501606255 0" material="" collada-model="#Brücke" visible=""></a-collada-model>
     <a-collada-model src="#kraniche1" position="59 7 100" scale="0.5 0.5 0.5" rotation="0 78 0">
         <a-animation attribute="position"
@@ -84,32 +85,56 @@
 
     <a-collada-model src="#underground" position="0 0 0" rotation="0 180 0"></a-collada-model>
     <a-sky src="skybox/evening.jpg"></a-sky>
-    <a-entity camera="userHeight: 2.1" position="-48 2 -11.34" rotation="0 225 0" look-controls>
+    <a-entity camera="userHeight: 2.1" position="-48.72 4.2 0.78" rotation="-0.44 -19.48 0" look-controls>
         <a-animation attribute="position"
-                     to="-47 4 -12"
-                     dur="600"></a-animation>
+                     to="-48.72 4.2 7"
+                     dur="6000">
+        </a-animation>
         <a-animation attribute="position"
-                     begin="600"
-                     from="-47 4 -12"
-                     to="-36 4 -4"
-                     dur="15000"></a-animation>
+                     begin="6000"
+                     from="-48.72 4.2 7"
+                     to="-8 4.2 7"
+                     dur="19000"> <!--25 000 -->
+        </a-animation>
         <a-animation attribute="position"
-                     begin="16600"
-                     from="-36 4 -4"
-                     to="-7 4 -2"
-                     dur="15000"> <!-- hier kann die Kranichbewegung eingesetzt werden -->
+                     begin="25000"
+                     from="-8 4.2 7"
+                     to="-8 5.5 6.8"
+                     dur="4000"> <!-- hier kann die Kranichbewegung eingesetzt werden -->
         </a-animation>
         <a-animation attribute="rotation"
-                     begin="46600"
-                     from="0 225 0"
-                     to="0 360 0"
-                     dur="5000">
+                     begin="29000"
+                     to="-0.44 32.09 0"
+                     dur="6000">
         </a-animation>
         <a-animation attribute="position"
-                     begin="51600"
-                     from="-7 4 -2"
-                     to="-7 4 -15.46"
-                     dur="5000">
+                     begin="35000"
+                     from="-8 5.5 6.8"
+                     to="13.74 5.5 -4.45"
+                     dur="12000"> <!--49 000 -->
+        </a-animation>
+        <a-animation attribute="position"
+                     begin="47000"
+                     from="13.74 5.5 -4.45"
+                     to="13.74 4.2 -4.45"
+                     dur="6000">
+        </a-animation>
+        <a-animation attribute="position"
+                     begin="53000"
+                     from="13.74 4.2 -4.45"
+                     to="28.81 4.2 -12.28"
+                     dur="12000">
+        </a-animation>
+        <a-animation attribute="position"
+                     begin="65000"
+                     from="28.81 4.2 -12.28"
+                     to="59 4.2 -6"
+                     dur="15000">
+        </a-animation>
+        <a-animation attribute="rotation"
+                     begin="80000"
+                     to="-0.44 145 0"
+                     dur="12000">
         </a-animation>
 
     </a-entity>
