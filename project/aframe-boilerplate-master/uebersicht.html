@@ -101,7 +101,7 @@
         <a-animation attribute="position"
                      begin="41000"
                      from="6.98 4.89 -10.79"
-                     to="14.9 4.89 -10.79"
+                     to="14.9 4.89 -12.79"
                      dur="12000"
                      easing="linear"></a-animation>
             <a-animation attribute="position"
@@ -153,7 +153,7 @@
     <a-collada-model src="#underground" position="0 0 0" rotation="0 180 0"></a-collada-model>
     <a-sky src="skybox/evening.jpg"></a-sky>
     <a-entity camera="userHeight: 2.1" position="-48.72 4.2 0.78" rotation="-0.44 -19.48 0" look-controls>
-        <a-animation attribute="position"
+       <a-animation attribute="position"
                      to="-48.72 4.2 7"
                      dur="6000">
         </a-animation>
@@ -161,7 +161,7 @@
                      begin="6000"
                      from="-48.72 4.2 7"
                      to="-8 4.2 7"
-                     dur="19000"><!--25 000-->
+                     dur="19000">
         </a-animation>
         <a-animation attribute="position"
                      begin="25000"
@@ -178,7 +178,7 @@
                      begin="35000"
                      from="-8 5.5 6.8"
                      to="13.74 5.5 -4.45"
-                     dur="12000"> <!--49 000 -->
+                     dur="12000">
         </a-animation>
         <a-animation attribute="position"
                      begin="47000"
@@ -192,28 +192,223 @@
                      to="28.81 6.2 -10"
                      dur="6000">
         </a-animation>
-       <!-- <a-animation attribute="position"
-                     begin="65000"
+        <a-animation attribute="position"
+                     begin="209000"
                      from="28.81 4.2 -12.28"
                      to="59 4.2 -6"
                      dur="15000">
         </a-animation>
         <a-animation attribute="rotation"
-                     begin="80000"
+                     begin="224000"
                      to="-0.44 145 0"
                      dur="12000">
-        </a-animation>-->
+        </a-animation>
 
     </a-entity>
-    <a-collada-model src="#bubble1" position="26 8 -16.94" rotation="0 -225 0" scale="0.8 0.85 1">
-        <a-animation>
-
-        </a-animation>
+    <a-collada-model src="#bubble1" position="25.1 11 -16.94" rotation="0 30 0" scale="0.8 0.85 1" visible="false">
+        <a-animation attribute="visible" begin="92000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="209000" to="false"></a-animation>
     </a-collada-model>
-    <a-entity text="text: Im Teehaus; size:0.20;" material="color: black" visible="true" position="26 8 -16.94" rotation="0 -225 0"></a-entity>
-    <a-entity text="text: will ich ihn treffen; size:0.20;" material="color: black" visible="true" position="26 8 -16.94" rotation="0 -225 0"></a-entity>
-    <a-entity text="text: Dort ist es gemütlich; size:0.20;" material="color: black" visible="true" position="26 8 -16.94" rotation="0 -225 0"></a-entity>
-    <a-entity text="text: und man kann sich in Ruhe unterhalten; size:0.20;" material="color: black" visible="true" position="26 8 -16.94" rotation="0 -225 0"></a-entity>
+    <a-entity text="text: Im Teehaus; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="92000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="98000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: will ich ihn treffen!; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="92000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="98000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Dort ist es; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="98000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="104000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: gemuetlich; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="98000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="104000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: und man kann sich; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="104000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="110000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: in Ruhe unterhalten; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="104000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="110000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Was er wohl; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="110000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="116000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: von mir haelt?; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="110000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="116000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Die Annonce; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="116000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="122000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: war schon etwas; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="116000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="122000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: schmeichelnd; size:0.16;" material="color: black" visible="false" position="23.79 10.02 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="116000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="122000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Huebsche; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="122000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="128000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: sympathische; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="122000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="128000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Erscheinung...; size:0.16;" material="color: black" visible="false" position="23.79 10.02 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="122000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="128000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Ich hoffe; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="128000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="134000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: er sieht das; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="128000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="134000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: genauso; size:0.16;" material="color: black" visible="false" position="23.79 10.02 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="128000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="134000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Aber es muss; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="134000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="140000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: klappen mit; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="134000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="140000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: der Hochzeit; size:0.16;" material="color: black" visible="false" position="23.79 10.02 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="134000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="140000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Sonst verliere ich; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="140000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="146000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: den Laden und; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="140000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="146000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: der ist alles,; size:0.16;" material="color: black" visible="false" position="23.79 10.02 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="140000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="146000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: was ich habe; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="146000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="152000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Ohne den Laden; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="152000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="158000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: muesste ich wieder; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="152000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="158000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: auf die Strasse gehen; size:0.16;" material="color: black" visible="false" position="23.79 10.02 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="152000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="158000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Der Laden; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="158000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="164000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: ist eine; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="158000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="164000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: einmalige Sache; size:0.16;" material="color: black" visible="false" position="23.79 10.02 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="158000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="164000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Ein zweites; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="164000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="170000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: goettliches Wunder; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="164000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="170000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: wird es fuer mich; size:0.160;" material="color: black" visible="false" position="23.79 10.02 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="164000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="170000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: nicht geben; size:0.160;" material="color: black" visible="false" position="23.79 9.64 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="164000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="170000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Und selbst als Shui Ta; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="170000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="176000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: koennte ich das Geld; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="170000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="176000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: nicht einfach aus; size:0.16;" material="color: black" visible="false" position="23.79 10.02 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="170000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="176000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: dem Hut zaubern; size:0.16;" material="color: black" visible="false" position="23.79 9.46 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="170000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="176000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Ach,; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="176000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="184000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: es wird schon; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="176000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="184000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: alles gut gehen!; size:0.16;" material="color: black" visible="false" position="23.79 10.02 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="176000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="184000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Nach der Hochzeit; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="184000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="190000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: kann ich meine; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="184000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="190000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Schulden bezahlen; size:0.16;" material="color: black" visible="false" position="23.79 10.02 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="184000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="190000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Und meinen; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="190000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="196000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Laden retten; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="190000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="196000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Das ist meine; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+    <a-animation attribute="visible" begin="196000" to="true"></a-animation>
+    <a-animation attribute="visible" begin="202000" to="false"></a-animation>
+</a-entity>
+    <a-entity text="text: einzige Hoffnung; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="196000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="202000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: Ausserdem ist er; size:0.16;" material="color: black" visible="false" position="23.79 10.78 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="202000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="208000" to="false"></a-animation>
+    </a-entity>
+    <a-entity text="text: ein angesehener Mann...; size:0.16;" material="color: black" visible="false" position="23.79 10.40 -14.49" rotation="0 30 0">
+        <a-animation attribute="visible" begin="202000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="208000" to="false"></a-animation>
+    </a-entity>
 
 </a-scene>
 
