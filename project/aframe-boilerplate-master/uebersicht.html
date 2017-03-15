@@ -5,6 +5,7 @@
     <title>Park in Sezuan</title>
     <meta name="description" content="Hello, World! - A-Frame">
     <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+    <script src="https://rawgit.com/ngokevin/aframe-text-component/master/dist/aframe-text-component.min.js"></script>
 </head>
 <body>
 <a-scene>
@@ -42,7 +43,7 @@
         <a-asset-item id="stein1" src="modells/stein1_II.DAE"/>
     </a-assets>
     <a-assets>
-        <a-asset-item id="bruecke" src="modells/bruecke.dae"/>
+        <a-asset-item id="bruecke" src="models/bruecke.dae"/>
     </a-assets>
     <a-assets>
         <a-asset-item id="kraniche1" src="models/kranicheneu.dae"/>
@@ -53,15 +54,71 @@
     <a-assets>
         <a-asset-item id="seilbaum" src="models/baumseil.dae"/>
     </a-assets>
+    <a-assets>
+        <a-asset-item id="bubble1" src="models/bubbletest.dae"/>
+    </a-assets>
+    <a-assets>
+        <a-asset-item id="bubble1r" src="models/speechbubble_shente.dae"/>
+    </a-assets>
+    <a-assets>
+    <a-asset-item id="bubble1l" src="models/speechbubble_shente_mirror.dae"/>
+    </a-assets>
+    <a-assets>
+        <a-asset-item id="bubble2r" src="models/speechbubble_sun.dae"/>
+    </a-assets>
+    <a-assets>
+        <a-asset-item id="bubble2l" src="models/speechbubble_sun_mirror.dae"/>
+    </a-assets>
+
 
     <a-assets>
         <audio id="backgroundsound" src="music/birds.wav" preload="auto" autoplay="true"></audio>
     </a-assets>
     <a-entity sound="src: #backgroundsound"></a-entity>
 
+    <a-entity light="type: ambient; color: #BBB; intensity:0.5"></a-entity>
+    <a-entity light="type: directional; color: #FFF; intensity: 0.3" position="-0.5 1 1"></a-entity>
 
-    <a-collada-model src="#shente" position="0 4 -22" rotation="0 -14 0"></a-collada-model>
 
+    <a-collada-model src="#shente" position="-6.61 5.61 0.23" rotation="0 -14 0">
+        <a-animation attribute="position"
+                     begin="35000"
+                     to="6.98 4.89 -10.79"
+                     dur="6000"
+                     easing="linear">
+        </a-animation>
+        <animation attribute="rotation"
+                   begin="37000"
+                   to="0 45 0"
+                   dur="4000"
+                   easing="linear">
+        </animation>
+        <a-animation attribute="position"
+                     begin="41000"
+                     from="6.98 4.89 -10.79"
+                     to="14.9 4.89 -10.79"
+                     dur="12000"
+                     easing="linear"></a-animation>
+            <a-animation attribute="position"
+                         begin="60000"
+                         from="14.9 4.89 -10.79"
+                         to="17.5 4.89 -14.84"
+                         dur="12000"
+                         easing="linear"></a-animation>
+        <a-animation attribute="rotation"
+                     begin="72000"
+                     from="0 0 0"
+                     to="0 30 0"
+                     dur="7000"
+                     easing="linear"></a-animation>
+                <a-animation attribute="position"
+                             begin="79000"
+                             from="17.5 4.89 -14.84"
+                             to="28.18 5.82 -16.94"
+                             dur="6000"
+                             easing="linear"></a-animation>
+        </a-animation>
+    </a-collada-model>
     <a-collada-model src="#sun" position="45.68 1.29 6.42" rotation="0 -225 0" scale="0.8 0.85 1"></a-collada-model>
     <a-collada-model src="#seilbaum" position="45.28 -0.44 7.86" rotation="0 18.20 0" scale="5 5 5"></a-collada-model>
     <a-collada-model src="#pavillon" position="2.23 -0.47 5.05" scale="5 5 5" rotation="0.34 -139.66 2.46"></a-collada-model>
@@ -76,6 +133,7 @@
     <a-collada-model src="#stein1" position="-35.92 -0.46 -34.30" scale="8 8 7" rotation="0 65.55 0"></a-collada-model>
     <a-collada-model src="#bruecke" position="28.5 0.62 -17.59" scale="2.36 4.17 6.5600000000000005" rotation="-1.1459155902616465 92.24620501606255 0" material="" collada-model="#Brücke" visible=""></a-collada-model>
     <a-collada-model src="#kraniche1" position="59 7 100" scale="0.5 0.5 0.5" rotation="0 78 0">
+
         <a-animation attribute="position"
                      to="59 0 -200"
                      dur="50000"
@@ -94,13 +152,13 @@
                      begin="6000"
                      from="-48.72 4.2 7"
                      to="-8 4.2 7"
-                     dur="19000"> <!--25 000 -->
+                     dur="19000"><!--25 000-->
         </a-animation>
         <a-animation attribute="position"
                      begin="25000"
                      from="-8 4.2 7"
                      to="-8 5.5 6.8"
-                     dur="4000"> <!-- hier kann die Kranichbewegung eingesetzt werden -->
+                     dur="4000">
         </a-animation>
         <a-animation attribute="rotation"
                      begin="29000"
@@ -120,12 +178,12 @@
                      dur="6000">
         </a-animation>
         <a-animation attribute="position"
-                     begin="53000"
+                     begin="79000"
                      from="13.74 4.2 -4.45"
-                     to="28.81 4.2 -12.28"
-                     dur="12000">
+                     to="28.81 6.2 -10"
+                     dur="6000">
         </a-animation>
-        <a-animation attribute="position"
+       <!-- <a-animation attribute="position"
                      begin="65000"
                      from="28.81 4.2 -12.28"
                      to="59 4.2 -6"
@@ -135,11 +193,21 @@
                      begin="80000"
                      to="-0.44 145 0"
                      dur="12000">
-        </a-animation>
+        </a-animation>-->
 
     </a-entity>
+    <a-collada-model src="#bubble1" position="26 8 -16.94" rotation="0 -225 0" scale="0.8 0.85 1">
+        <a-animation>
+
+        </a-animation>
+    </a-collada-model>
+    <a-entity text="text: Im Teehaus; size:0.20;" material="color: black" visible="true" position="26 8 -16.94" rotation="0 -225 0"></a-entity>
+    <a-entity text="text: will ich ihn treffen; size:0.20;" material="color: black" visible="true" position="26 8 -16.94" rotation="0 -225 0"></a-entity>
+    <a-entity text="text: Dort ist es gemütlich; size:0.20;" material="color: black" visible="true" position="26 8 -16.94" rotation="0 -225 0"></a-entity>
+    <a-entity text="text: und man kann sich in Ruhe unterhalten; size:0.20;" material="color: black" visible="true" position="26 8 -16.94" rotation="0 -225 0"></a-entity>
 
 </a-scene>
 
 </body>
 </html>
+
