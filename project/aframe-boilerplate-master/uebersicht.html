@@ -122,6 +122,24 @@
                              to="28.18 5.82 -16.94"
                              dur="6000"
                              easing="linear"></a-animation>
+        <a-animation attribute="position"
+                     begin="209000"
+                     from="28.18 5.82 -16.94"
+                     to="53.15 5.82 -16.94"
+                     dur="13000"
+                     easing="linear"></a-animation>
+        <a-animation attribute="rotation"
+                     begin="224000"
+                     from="0 30 0"
+                     to="0 -225 0"
+                     dur="3000"
+                     easing="linear"></a-animation>
+        <a-animation attribute="position"
+                     begin="227000"
+                     from="53.15 5.82 -16.94"
+                     to="51.56 4.02 10.39"
+                     dur="10000"
+                     easing="linear"></a-animation>
         </a-animation>
     </a-collada-model>
     <a-collada-model src="#sun" position="45.68 1.29 6.42" rotation="0 -225 0" scale="0.8 0.85 1"></a-collada-model>
@@ -195,7 +213,7 @@
         <a-animation attribute="position"
                      begin="209000"
                      from="28.81 4.2 -12.28"
-                     to="59 4.2 -6"
+                     to="54.22 4.2 -3.22"
                      dur="15000">
         </a-animation>
         <a-animation attribute="rotation"
@@ -409,7 +427,14 @@
         <a-animation attribute="visible" begin="202000" to="true"></a-animation>
         <a-animation attribute="visible" begin="208000" to="false"></a-animation>
     </a-entity>
-
+    <a-collada-model src="#bubble1r" position="54.38 7.5 12.31" rotation="0 -225 0" scale="0.8 0.85 1" visible="false">
+        <a-animation attribute="visible" begin="237000" to="true"></a-animation>
+        <a-animation attribute="visible" begin="500000" to="false"></a-animation>
+    </a-collada-model>
+    <a-entity text="text: Hallo; size:0.5;" material="color: black" visible="false" position="54.38 8 12.31" rotation="0 -225 0">
+        <a-animation attribute="visible" begin="237000" to="true"></a-animation>
+       <!-- <a-animation attribute="visible" begin="242000" to="false"></a-animation>-->
+    </a-entity>
 </a-scene>
 
 </body>

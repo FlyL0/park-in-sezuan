@@ -21,8 +21,8 @@
       <file leaf-file-name="uebersicht.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uebersicht.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="185" column="7" lean-forward="false" selection-start-line="185" selection-start-column="7" selection-end-line="185" selection-end-column="7" />
+            <state relative-caret-position="343">
+              <caret line="424" column="107" lean-forward="false" selection-start-line="424" selection-start-column="107" selection-end-line="424" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -46,10 +46,12 @@
       <find>ligh</find>
       <find>brunnen</find>
       <find>br</find>
-      <find>bubble1</find>
       <find>\n</find>
       <find>line</find>
       <find>visible</find>
+      <find>shen</find>
+      <find>bubble1</find>
+      <find>bubble</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -71,7 +73,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="684" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -220,15 +222,15 @@
       <workItem from="1489406981100" duration="4672000" />
       <workItem from="1489437229598" duration="804000" />
       <workItem from="1489500372814" duration="5754000" />
-      <workItem from="1489573032572" duration="15589000" />
+      <workItem from="1489573032572" duration="18156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56391000" />
+    <option name="totallyTimeSpent" value="58958000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="684" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -334,8 +336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uebersicht.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="185" column="7" lean-forward="false" selection-start-line="185" selection-start-column="7" selection-end-line="185" selection-end-column="7" />
+        <state relative-caret-position="343">
+          <caret line="424" column="107" lean-forward="false" selection-start-line="424" selection-start-column="107" selection-end-line="424" selection-end-column="107" />
           <folding />
         </state>
       </provider>
