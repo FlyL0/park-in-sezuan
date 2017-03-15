@@ -28,8 +28,8 @@ Shen Te (in 2D)
 
 Kraniche (in 2D)
 
-![](img/Kranich1.jpg)
-![](img/Kranich2.jpg)
+![](img/kranich1.jpg)
+![](img/kranich2.jpg)
 
 ### Die Landschaft
 
