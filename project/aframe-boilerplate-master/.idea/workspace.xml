@@ -18,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="uebersicht.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uebersicht.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="424" column="107" lean-forward="false" selection-start-line="424" selection-start-column="107" selection-end-line="424" selection-end-column="107" />
+            <state relative-caret-position="188">
+              <caret line="161" column="29" lean-forward="false" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -39,9 +39,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cam</find>
-      <find>camera</find>
-      <find>bigtree</find>
       <find>kranich</find>
       <find>ligh</find>
       <find>brunnen</find>
@@ -52,6 +49,26 @@
       <find>shen</find>
       <find>bubble1</find>
       <find>bubble</find>
+      <find>camera</find>
+      <find>7.54</find>
+      <find>7.20</find>
+      <find>will</find>
+      <find>bubble2r</find>
+      <find>bubble1r</find>
+      <find>274</find>
+      <find>455</find>
+      <find>456</find>
+      <find>401</find>
+      <find>383</find>
+      <find>322</find>
+      <find>bruecke</find>
+      <find>kraniche1</find>
+      <find>kraniche2</find>
+      <find>park</find>
+      <find>shente</find>
+      <find>baum</find>
+      <find>pavillon</find>
+      <find>stein</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -73,7 +90,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="716" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -222,15 +239,15 @@
       <workItem from="1489406981100" duration="4672000" />
       <workItem from="1489437229598" duration="804000" />
       <workItem from="1489500372814" duration="5754000" />
-      <workItem from="1489573032572" duration="18156000" />
+      <workItem from="1489573032572" duration="32032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58958000" />
+    <option name="totallyTimeSpent" value="72834000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="714" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -327,17 +344,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/overview" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/uebersicht.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="248">
+          <caret line="46" column="15" lean-forward="true" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uebersicht.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="424" column="107" lean-forward="false" selection-start-line="424" selection-start-column="107" selection-end-line="424" selection-end-column="107" />
+        <state relative-caret-position="188">
+          <caret line="161" column="29" lean-forward="false" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="29" />
           <folding />
         </state>
       </provider>
