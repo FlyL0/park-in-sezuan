@@ -5,9 +5,9 @@ Während ihrem Spaziergang durch den Park nimmt die Geschichte ihren Lauf. Unter
 
 ![](img/Sezuan.jpg)
 
-Unterschiedliche Lichtverhältnisse, Regen, Musik und akustische Untermalung werden zusätzlich eingesetzt um die Narration zu unterstützen. Die Dialoge werden eingesprochen und an jedem Schauplatz jeweils abgespielt.
+Unterschiedliche Lichtverhältnisse, Animationen und akustische Untermalung werden zusätzlich eingesetzt um die Narration zu unterstützen. Die Dialoge werden an jedem Schauplatz jeweils dargestellt.
 
-Die Darstellung der Charaktere wird in 2D stattfinden, ähnlich wie in einem Comic. Die Landschaft wird in 3D dargestellt.
+Die Umsetzung der Charaktere wird in 2D stattfinden, ähnlich wie in einem Comic. Die Landschaft wird in 3D modelliert.
 
 
 ## Folgende Modelle wurden für die Szene erstellt:
@@ -33,36 +33,11 @@ Für die Landschaft wurden folgende Objekte erstellt:
 - Steine (in 3d)
 - Brücke (in 3d)
 - Fluss (in 3d)
+- Brunnen (in 3d)
 
 ![](img/Landscape.png)
 
 -----
-
-## Für den nächsten Sprint sind folgende Erweiterungen geplant:
-
-- Eine Skybox einfügen
-- Licht anpassen
-- Hintergrundgeräusche hinzufügen
-- Pfad implementieren auf dem die Kamera entlangläuft
-
------
-
-## Folgende weitere Objekte werden modelliert:
-
-Der Wasserverkäufer (in 2d)
-
-![](img/4078428_web.jpg)
-
-Ein Schwarm Kraniche (in 2d)
-
-![](img/size=708x398.jpg)
-
-Bunte Lampinions als Lichtquelle (in 3d)
-
-![](img/Laternen.jpg)
-
-
-Gegebenenfalls werden teilweise auch fertige 3D Objekte aus
 
 
 Als Modellierungssoftware wird  3DS Max genutzt.
