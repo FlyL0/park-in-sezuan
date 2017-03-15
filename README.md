@@ -24,6 +24,13 @@ Shen Te (in 2D)
 ![](img/ShenTe.png)
 
 
+### Weitere Modelle
+
+Kraniche (in 2D)
+
+![](img/Kranich1)
+![](img/Kranich2)
+
 ### Die Landschaft
 
 Für die Landschaft wurden folgende Objekte erstellt:
