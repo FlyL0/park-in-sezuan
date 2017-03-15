@@ -28,6 +28,8 @@ Shen Te (in 2D)
 
 Kraniche (in 2D)
 
+1. Kranich | 2. Kranich
+------------ | -------------
 ![](img/kranich1.jpg) | ![](img/kranich2.jpg)
 
 
